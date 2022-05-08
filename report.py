@@ -15,7 +15,8 @@ def get_zjhs_time(method='YESTERDAY'):
     today = datetime.datetime.now(timezone('Asia/Shanghai'))
     yesterday = today + datetime.timedelta(-1)
     if method == 'YESTERDAY':
-        return yesterday.strftime("%Y-%m-%d %-H")
+        return "2022-05-08 08"
+        #return yesterday.strftime("%Y-%m-%d %-H")
 
 
 def apply(curr_location, logger, auth: NjuUiaAuth, covidTestMethod='YESTERDAY', force=False):
