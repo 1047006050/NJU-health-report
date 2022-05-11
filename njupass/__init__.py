@@ -26,7 +26,7 @@ class NjuUiaAuth:
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': "Mozilla/5.0 (Linux; Android 11; M2006J10C Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile Safari/537.36  cpdaily/8.2.7 wisedu/8.2.7})",
-            "Referer": "http://ehallapp.nju.edu.cn/xgfw/sys/mrjkdkappnju/index.html"
+            "Referer": "http://ehallapp.nju.edu.cn/xgfw/sys/mrjkdkappnju/index.html",
             "X-Requested-With":"com.wisedu.cpdaily.nju",
             "Accept":"application/json, text/plain, */*",
             "Accept-Encoding":"gzip, deflate",
